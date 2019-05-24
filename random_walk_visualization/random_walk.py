@@ -15,6 +15,14 @@ class RandomWalk:
     def fill_walk(self):
         """calculate all the points in the walk."""
 
+        # clear the two lists
+        self.x_values.clear()
+        self.y_values.clear()
+
+        # initializing the list
+        self.x_values = [0]
+        self.y_values = [0]
+
         # keep tracking steps until the walk reaches the desired length
         while len(self.x_values) < self.num_points:
             # decide which direction to go and distance to go in that direction
