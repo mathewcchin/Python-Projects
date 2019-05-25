@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d478877a-886c-48da-8323-fef866c67594" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dice_roll_pygal/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dice_roll_pygal/dice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dice_roll_pygal/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dice_roll_pygal/test_two_dice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../random_walk_visualization/plot_randomwalk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../random_walk_visualization/plot_randomwalk_save100.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/weather_plot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_lows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../random_walk_visualization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../random_walk_visualization/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../random_walk_visualization/random_walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/../random_walk_visualization/random_walk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/high_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/high_lows.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/high_lows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -163,8 +152,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/high_lows.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
