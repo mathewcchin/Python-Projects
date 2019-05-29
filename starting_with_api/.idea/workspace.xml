@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a46fc10a-2202-40f2-8203-373d406c4797" name="Default Changelist" comment="">
+    <list default="true" id="1c9af16b-1aa4-4ed7-b107-753b341ec68b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../population_plot/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/.idea/population_plot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/country_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/world_population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/world_population_grouping_by_population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../population_plot/world_population_grouping_by_population_STYLE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/starting_with_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hacker_news_submission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_repos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_plot/get_index.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_plot/high_lows_matplotlib.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_plot/highs_lows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dice_visual.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dice_visual.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_plot/highs_lows_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_plot/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dice_roll_pygal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dice_roll_pygal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dice_roll_pygal/dice_visual.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../dice_roll_pygal/dice_visual.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../random_walk_visualization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../random_walk_visualization/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../weather_plot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../weather_plot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../weather_plot/high_lows.py" beforeDir="false" />
@@ -18,30 +37,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/python_repos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="364">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_two_dice.py">
+        <entry file="file://$PROJECT_DIR$/hacker_news_submission.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="260">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dice.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state>
+              <caret selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,9 +83,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dice.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/test_two_dice.py" />
+        <option value="$PROJECT_DIR$/python_repos.py" />
+        <option value="$PROJECT_DIR$/hacker_news_submission.py" />
       </list>
     </option>
   </component>
@@ -86,8 +108,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="dice_roll_pygal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dice_roll_pygal" type="462c0819:PsiDirectoryNode" />
+              <item name="starting_with_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starting_with_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,12 +120,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\silam\OneDrive\文档\GitHub\Python-Projects\dice_roll_pygal" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,9 +133,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_two_dice">
+  <component name="RunManager" selected="Python.hacker_news_submission">
+    <configuration name="hacker_news_submission" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="starting_with_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hacker_news_submission.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python_repos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="starting_with_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_repos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dice_roll_pygal" />
+      <module name="starting_with_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,30 +197,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_two_dice" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dice_roll_pygal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_two_dice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_two_dice" />
+        <item itemvalue="Python.hacker_news_submission" />
+        <item itemvalue="Python.python_repos" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -172,11 +210,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a46fc10a-2202-40f2-8203-373d406c4797" name="Default Changelist" comment="" />
-      <created>1558628176489</created>
+      <changelist id="1c9af16b-1aa4-4ed7-b107-753b341ec68b" name="Default Changelist" comment="" />
+      <created>1559064206634</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558628176489</updated>
+      <updated>1559064206634</updated>
     </task>
     <servers />
   </component>
@@ -184,9 +222,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1085353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -194,10 +236,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -206,22 +244,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state>
+          <caret selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dice.py">
+    <entry file="file://$PROJECT_DIR$/python_repos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="364">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_two_dice.py">
+    <entry file="file://$PROJECT_DIR$/hacker_news_submission.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

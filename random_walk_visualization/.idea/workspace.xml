@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08cfb1d-7cd9-404b-848f-07b99ea33902" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plot_randomwalk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_randomwalk_save100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_plot/highs_lows.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_walk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather_plot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../weather_plot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather_plot/high_lows.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_walk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
+            <state relative-caret-position="800">
               <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_walk_0.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random_walk_4.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -187,7 +197,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -209,8 +218,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/random_walk_3.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/random_walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_randomwalk.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -229,12 +242,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_walk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/random_walk_3.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_walk_0.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_walk_4.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
