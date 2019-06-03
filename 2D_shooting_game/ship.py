@@ -2,9 +2,12 @@ import pygame
 
 
 class Ship:
-    def __init__(self, screen):  # screen is need to put Ship class into the game window
+    # screen is needed to put Ship class into the game window
+    # game_settings is needed to access ship related setting
+    def __init__(self, screen, game_settings):
         """initialize the ship and set its starting position"""
         self.screen = screen
+        self.game_settings = game_settings
 
         # load ship image and get its rect
         self.image = pygame.image.load('img/0.jpg')  # this function returns a surface, which is represented by the image it loads
@@ -14,6 +17,47 @@ class Ship:
         # start each new ship at the bottom center of the screen
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
+
+        # intermediate coordinate storing (for higher accuracy)
+        self.center_x = float(self.rect.centerx)
+        self.center_y = float(self.rect.centery)
+
+        # ship moving flag, if the flag is true, the ship should be in a continuously moving status
+        self.moving_right = False
+        self.moving_left = False
+        self.moving_up = False
+        self.moving_down = False
+        self.acceleration = 0  # moving acceleration, will be increased each moving loop. Reset to 0 when stop moving
+
+    def update(self):
+        """check moving flag, and perform corresponding movement as stated by moving flag"""
+        if self.moving_right:
+            # set an upper bound of acceleration
+            if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
+                self.acceleration += self.game_settings.ship_speed_factor
+            self.center_x += self.game_settings.ship_speed_factor + self.acceleration
+
+        if self.moving_left:
+            # set an upper bound of acceleration
+            if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
+                self.acceleration += self.game_settings.ship_speed_factor
+            self.center_x -= self.game_settings.ship_speed_factor + self.acceleration
+
+        if self.moving_up:
+            # set an upper bound of acceleration
+            if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
+                self.acceleration += self.game_settings.ship_speed_factor
+            self.center_y -= self.game_settings.ship_speed_factor + self.acceleration
+
+        if self.moving_down:
+            # set an upper bound of acceleration
+            if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
+                self.acceleration += self.game_settings.ship_speed_factor
+            self.center_y += self.game_settings.ship_speed_factor + self.acceleration
+
+        # pass the new coordinate stored in temporary self.center_x, self.center_y to rect object
+        self.rect.centerx = self.center_x
+        self.rect.centery = self.center_y
 
     def blitme(self):
         """Draw the ship at its current location"""

@@ -14,15 +14,18 @@ def run_game():
     pygame.display.set_caption(game_settings.caption)  # set the caption of the game window
     screen.fill(game_settings.bg_color)  # .fill() will take a tuple and set background color
 
-    # make a ship, pass the surface on which pygame draws the ship
-    ship = Ship(screen)
+    # make a ship, pass:
+    #   -the surface on which pygame draws the ship
+    #   -game_settings (which contains settings for the ship)
+    ship = Ship(screen, game_settings)
 
     # start the main loop for the game
     while True:
 
         # Watch for keyboard and mouse events
         # using a function in game_functions
-        gf.check_events()
+        gf.check_events(ship)
+        ship.update()
 
         # update screen and draw it
         gf.update_screen(game_settings, screen, ship)
