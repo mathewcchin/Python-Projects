@@ -1,6 +1,6 @@
-import sys
 import pygame
 from setting import Settings
+import game_functions as gf
 from ship import Ship
 
 
@@ -14,21 +14,18 @@ def run_game():
     pygame.display.set_caption(game_settings.caption)  # set the caption of the game window
     screen.fill(game_settings.bg_color)  # .fill() will take a tuple and set background color
 
-    # make a ship
+    # make a ship, pass the surface on which pygame draws the ship
     ship = Ship(screen)
 
     # start the main loop for the game
     while True:
-        # place ship
-        ship.blitme()
 
         # Watch for keyboard and mouse events
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                sys.exit()
+        # using a function in game_functions
+        gf.check_events()
 
-        # make the most recently drawn screen visible
-        pygame.display.flip()
+        # update screen and draw it
+        gf.update_screen(game_settings, screen, ship)
 
 
 run_game()
