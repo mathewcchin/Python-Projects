@@ -2,6 +2,48 @@ import sys
 import pygame
 
 
+def check_keydown_events(event, ship):
+    """respond to key press"""
+    if event.key == pygame.K_RIGHT:
+        # set the moving status of the ship
+        ship.moving_right = True
+
+    if event.key == pygame.K_LEFT:
+        # set the moving status of the ship
+        ship.moving_left = True
+
+    if event.key == pygame.K_UP:
+        # set the moving status of the ship
+        ship.moving_up = True
+
+    if event.key == pygame.K_DOWN:
+        # set the moving status of the ship
+        ship.moving_down = True
+
+
+def check_keyup_events(event, ship):
+    """respond to key releases"""
+    if event.key == pygame.K_RIGHT:
+        # reset the moving status of the ship
+        ship.moving_right = False
+        ship.acceleration = 0
+
+    if event.key == pygame.K_LEFT:
+        # reset the moving status of the ship
+        ship.moving_left = False
+        ship.acceleration = 0
+
+    if event.key == pygame.K_UP:
+        # reset the moving status of the ship
+        ship.moving_up = False
+        ship.acceleration = 0
+
+    if event.key == pygame.K_DOWN:
+        # reset the moving status of the ship
+        ship.moving_down = False
+        ship.acceleration = 0
+
+
 def check_events(ship):
     """response to keypresses and mouse events"""
     for event in pygame.event.get():
@@ -9,42 +51,10 @@ def check_events(ship):
             sys.exit()
 
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_RIGHT:
-                # set the moving status of the ship
-                ship.moving_right = True
-
-            if event.key == pygame.K_LEFT:
-                # set the moving status of the ship
-                ship.moving_left = True
-
-            if event.key == pygame.K_UP:
-                # set the moving status of the ship
-                ship.moving_up = True
-
-            if event.key == pygame.K_DOWN:
-                # set the moving status of the ship
-                ship.moving_down = True
+            check_keydown_events(event, ship)
 
         elif event.type == pygame.KEYUP:
-            if event.key == pygame.K_RIGHT:
-                # reset the moving status of the ship
-                ship.moving_right = False
-                ship.acceleration = 0
-
-            if event.key == pygame.K_LEFT:
-                # reset the moving status of the ship
-                ship.moving_left = False
-                ship.acceleration = 0
-
-            if event.key == pygame.K_UP:
-                # reset the moving status of the ship
-                ship.moving_up = False
-                ship.acceleration = 0
-
-            if event.key == pygame.K_DOWN:
-                # reset the moving status of the ship
-                ship.moving_down = False
-                ship.acceleration = 0
+            check_keyup_events(event, ship)
 
 
 def update_screen(game_settings, screen, ship):

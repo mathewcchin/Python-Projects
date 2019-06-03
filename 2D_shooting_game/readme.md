@@ -16,4 +16,5 @@ The prototype of this game:
 
 ## Current Progress:
 * A ship is drawn in the bottom of the game window (can't be controlled yet)
-
+* ship movement control added, now it can move in four directions
+* ship is bound inside the main game window 

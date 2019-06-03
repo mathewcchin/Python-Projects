@@ -31,25 +31,25 @@ class Ship:
 
     def update(self):
         """check moving flag, and perform corresponding movement as stated by moving flag"""
-        if self.moving_right:
+        if self.moving_right and self.rect.right < self.screen_rect.right:
             # set an upper bound of acceleration
             if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
                 self.acceleration += self.game_settings.ship_speed_factor
             self.center_x += self.game_settings.ship_speed_factor + self.acceleration
 
-        if self.moving_left:
+        if self.moving_left and self.rect.left > 0:
             # set an upper bound of acceleration
             if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
                 self.acceleration += self.game_settings.ship_speed_factor
             self.center_x -= self.game_settings.ship_speed_factor + self.acceleration
 
-        if self.moving_up:
+        if self.moving_up and self.rect.centery > 0:
             # set an upper bound of acceleration
             if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
                 self.acceleration += self.game_settings.ship_speed_factor
             self.center_y -= self.game_settings.ship_speed_factor + self.acceleration
 
-        if self.moving_down:
+        if self.moving_down and self.rect.bottom < self.screen_rect.bottom:
             # set an upper bound of acceleration
             if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
                 self.acceleration += self.game_settings.ship_speed_factor
