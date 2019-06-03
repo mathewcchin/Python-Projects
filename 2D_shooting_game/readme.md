@@ -14,4 +14,6 @@ The prototype of this game:
   * enemy reached bottom
 * if player shoots all enemies, a new wave of enemy will respawn. They should move faster toward the bottom and harder to kill.
 
-Current Progress:
+## Current Progress:
+* A ship is drawn in the bottom of the game window (can't be controlled yet)
+
