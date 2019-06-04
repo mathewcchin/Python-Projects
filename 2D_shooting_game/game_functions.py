@@ -45,7 +45,7 @@ def check_keyup_events(event, ship):
 
 
 def check_events(ship):
-    """response to keypresses and mouse events"""
+    """response to key presses and mouse events"""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()

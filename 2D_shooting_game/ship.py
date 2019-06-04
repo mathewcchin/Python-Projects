@@ -16,7 +16,7 @@ class Ship:
 
         # start each new ship at the bottom center of the screen
         self.rect.centerx = self.screen_rect.centerx
-        self.rect.bottom = self.screen_rect.bottom
+        self.rect.centery = self.screen_rect.centery
 
         # intermediate coordinate storing (for higher accuracy)
         self.center_x = float(self.rect.centerx)
@@ -43,7 +43,7 @@ class Ship:
                 self.acceleration += self.game_settings.ship_speed_factor
             self.center_x -= self.game_settings.ship_speed_factor + self.acceleration
 
-        if self.moving_up and self.rect.centery > 0:
+        if self.moving_up and self.rect.top > 0:
             # set an upper bound of acceleration
             if self.acceleration < self.game_settings.ship_speed_acceleration_ratio * self.game_settings.ship_speed_factor:
                 self.acceleration += self.game_settings.ship_speed_factor
