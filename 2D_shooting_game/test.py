@@ -1,7 +1,7 @@
 import pygame
 import sys
 pygame.init()
-icon = pygame.image.load('a.png')
+icon = pygame.image.load('0.jpg')
 pygame.display.set_icon(icon)
 
 size = width,height = 600,400
@@ -12,7 +12,7 @@ pygame.display.set_caption('Pygame 壁球')
 speed = [1,1]
 BLACK = 0,0,0
 
-ball = pygame.image.load('a.png')  #pygame 中导入的任何一个对象都是Surface对象
+ball = pygame.image.load('0.jpg')  #pygame 中导入的任何一个对象都是Surface对象
 ballrect = ball.get_rect()      # 在pygame 中覆盖图像的矩形对象  rect对象有重要属性：top bottom left right width height 坐标值
 
 fps = 1000
